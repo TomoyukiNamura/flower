@@ -9,6 +9,15 @@ $ cd /path/to/project-X
 $ docker-compose up -d
 ```
 
+dockerコンテナへのログイン
+```
+(コンテナが起動した状態で)
+$ docker exec -it mysql /bin/bash
+
+(ログアウトはコンテナ内で)
+# exit
+```
+
 dockerコンテナ起動
 ```
 $ cd /path/to/project-X

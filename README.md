@@ -1,5 +1,5 @@
 # project-X
-project-X repository
+シリアルナンバー管理ツール
 
 ## dockerコンテナ建て方
 

@@ -12,5 +12,3 @@ services:
       - MYSQL_USER=test
       - MYSQL_PASSWORD=test
       - MYSQL_DATABASE=test
-    volumes:
-      - ./db/data:/var/lib/mysql
